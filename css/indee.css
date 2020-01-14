@@ -1,0 +1,299 @@
+  .modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+#bs{
+    margin-left: 1em;
+  }
+  #bs li {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+#bs li a{
+  text-decoration: none; 
+    color: #fff;
+    font-family:Ubuntu;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+   color: #f4511e !important;
+  background-color:#fff !important;
+}
+ .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+  position: relative;
+}
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+.company-heading h1 {
+  margin-bottom: 60px;
+  padding-bottom: 50px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 700 !important;
+  text-align: center;
+}
+.jumbo {
+  margin-top: 50px;
+}
+.seo-header, .product-header, 
+.intro-type .container h1.white, 
+.company-heading h1 {
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+}
+.parallax {
+  background-attachment: inherit !important;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -10;
+}
+.ct-btn-scroll {
+  width: 49px;
+  height: 60px;
+  position: absolute;
+  bottom: 270px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+img, 
+figure {
+  max-width: 100%;
+}
+.text{
+  text-align: center;
+  font-size: 80px;
+  color: #eee;
+  font-weight: semi-bold;
+  font-family: Ubuntu;
+
+}
+
+ 
+i {
+    border: solid white;
+    border-radius: 6px;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    margin-left: 5.5em;
+    margin-top: 1em;
+    padding: 20px;
+}
+.box1{
+   width: 17em;
+    height: 5em;
+ 
+
+    margin-top: 1em;
+    background-color:  #AF1216;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); 
+    transform: rotate(0deg);
+}
+.up {
+    transform: rotate(317deg);
+    -webkit-transform: rotate(317deg);
+}
+.row1{
+  width: 60%;
+}
+.panel-default{
+  border: 0px #fff;
+
+}
+.panel-body{
+  padding-left: 40em;
+  }
+@media (min-width: 320px) and (max-width: 490px){
+
+.page-footer{
+  display: none;
+}
+
+
+
+}
+@media (min-width:491px ) and (max-width:680px ){
+
+ #two{
+  display: none;
+}
+ #three{
+  display: none;
+}
+ #four{
+  display: none;
+}
+.col-lg-9{
+  width: 100%;
+  margin-top: 20%;
+}
+
+#one{
+   margin-top: -17%;
+   margin-left: 70%;
+}
+
+
+}
+@media (min-width: 681px) and (max-width: 800px){
+
+.col-lg-9{
+  width: 100%;
+}
+.col-md-3{
+  width: 100%;
+}
+.col-xs-2{
+  width: 30%;
+  margin-top: 13%;
+}
+#one{
+  width: 40%;
+  margin-top: 13%;
+  margin-left: 10%;
+}
+#two{
+  display: none;
+}
+#three{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 90%;
+}
+#four{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 130%;
+}
+}
+@media (min-width: 801px) and (max-width: 1000px){
+.col-lg-9{
+  width: 80%;
+}
+.col-md-3{
+  width: 100%;
+}
+.col-xs-2{
+  width: 30%;
+  margin-top: 13%;
+}
+#one{
+  width: 40%;
+  margin-top: 13%;
+  margin-left: 10%;
+}
+
+#three{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 80%;
+}
+#four{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 120%;
+}
+#two{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 170%;
+}
+}
+
+@media (min-width:  1001px) and (max-width: 1120px){
+
+.col-lg-9{
+  width: 80%;
+}
+.col-md-3{
+  width: 100%;
+}
+.col-xs-2{
+  width: 30%;
+  margin-top: 13%;
+}
+#one{
+  width: 40%;
+  margin-top: 13%;
+  margin-left: 10%;
+}
+
+#three{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 80%;
+}
+#four{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 120%;
+}
+#two{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 170%;
+}
+}
+@media (min-width:  1121px){
+
+.col-lg-9{
+  width: 80%;
+}
+.col-md-3{
+  width: 100%;
+}
+.col-xs-2{
+  margin-top: 12%;
+}
+#one{
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+#three{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 80%;
+}
+#four{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 120%;
+}
+#two{
+  width: 50%;
+  margin-top: -13%;
+  margin-left: 170%;
+}
+}
